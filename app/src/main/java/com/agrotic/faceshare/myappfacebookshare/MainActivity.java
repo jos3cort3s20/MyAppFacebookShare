@@ -34,9 +34,7 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-// ahi estan mis lineas de codigo
-
-    //si estas viendo mis cambios
+// como no se puede hacer commit esto esta grave
     private void takePictureIntent() {
         Intent takePictureIntent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
         if (takePictureIntent.resolveActivity(getPackageManager()) != null) {
