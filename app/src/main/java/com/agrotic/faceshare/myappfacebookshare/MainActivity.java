@@ -34,7 +34,10 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-// como no se puede hacer commit esto esta grave
+// como no se puede hacer commit esto esta my pero
+    // pero muy grave
+
+
     private void takePictureIntent() {
         Intent takePictureIntent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
         if (takePictureIntent.resolveActivity(getPackageManager()) != null) {
